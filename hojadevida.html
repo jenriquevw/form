@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOJA DE VIDA</title>
+        <meta charset="UTF-8">
+    </head>
+    <body background="papel.jpg">
+        <h1><center><font face="Lucida Sans Unicode">HOJA DE VIDA</font></center></h1>
+        <h3><b>Información personal</b></h3>
+        <form action="julio.vargas@up.ac.pa" action="post" data-netlify="true">
+            <p>Nombre: <input type="text" name="nombre" value="Julio"/></p>
+            <p>Apellido: <input type="text" name="apellido" value="Vargas"/></p>
+            <p>Nacionalidad: <input type="text" name="nacionalidad" value="Panameña"/></p>
+            <p>Fecha de nacimiento: <input type="date" id="birthday" name="Nacimiento"/></p>
+            <p>Género:<br>
+                <input type="radio" name="Masculino" value="M"/> Masculino<br>
+                <input type="radio" name="Femenino" value="F"/> Femenino<br>
+                <input type="radio" name="No binario" value="B"/> No binario</p>
+            <p>Número de teléfono: <input type="text" name="teléfono" value="+507 0000-0000" size="10" maxlength="9"/></p>
+            <p>Dirección: <input type="text" name="dirección" value="Puerto Caimito, La Chorrera" size="50"/></p>
+            <p>Correo electrónico: <input type="text" name="e-mail" size="35"/></p>
+            <hr>
+        <h3><b>Formación académica</b></h3>
+            <input type="radio" name="primaria" value="1" checked="checked"> Estudios primarios<br>
+            <input type="radio" name="secundaria" value="2"/> Estudios secundarios<br>
+            <input type="radio" name="bachillerato" value="3"/> Bachillerato<br>
+            <input type="radio" name="universitario" value="4"/> Licenciatura<br>
+            <input type="radio" name="magister" value="5"/> Maestría<br>
+            <input type="radio" name="doctor" value="6"/> Doctorado<br>
+            <hr>
+        <h3><b>¿Tiene experiencia laboral?</b></h3>
+            <input type="radio" name="Sí" value="Sí" checked="checked"/> Sí<br>
+            <input type="radio" name="No" value="No"/> No<br>
+        <ul><b>Describa su experiencia laboral:</b></ul>
+        <textarea name="experiencia laboral" rows="10" cols="50"></textarea>   
+        <hr>
+        <h3><b>Actividades e interéses</b></h3>
+                <input type="checkbox" name="música"/> Música<br>
+                <input type="checkbox" name="deportes"/> Deportes<br>
+                <input type="checkbox" name="libros"/> Libros<br>
+                <input type="checkbox" name="cine"/> Cine<br>
+                <input type="checkbox" name="cocina"/> Cocina<br>
+                <input type="checkbox" name="estudiar"/> Estudiar<br>
+                <input type="checkbox" name="ciencia"/> Ciencia<br>
+                <input type="checkbox" name="otros"/> Otros:<br>
+                <ul><b>Especifique:</b></ul>
+                    <textarea name="otras actividades" rows="5" cols="40"></textarea>
+                <hr>
+        <h3><b>Competencias claves</b></h3>
+                <input type="checkbox" name="responsable"/> Responsable<br>
+                <input type="checkbox" name="organizado"/> Organizado<br>
+                <input type="checkbox" name="respetuoso"/> Respetuoso<br>
+                <input type="checkbox" name="amable"/> Amable<br>
+                <input type="checkbox" name="presión"/> Capacidad de trabajo bajo presión<br>
+                <input type="checkbox" name="equipo"/> Trabajo en equipo<br>
+                <input type="checkbox" name="liderazgo"/> Capacidad de liderazgo<br>
+                <input type="checkbox" name="Microsoft Office"/> Manejo de Microsoft Office<br>
+            <ul><b>Describa su nivel de manejo de Microsoft Office:</b></ul>
+            <p><select name="nivel">
+                <option>Excelente</option>
+                <option>Intermedio</option>
+                <option>Deficiente</option>
+            </select></p>
+            <hr>
+        <h3><b> CAPACIDAD DE IDIOMAS</b></h3>
+                <input type="radio" name="monolíngüe" value="1"/> Monolíngüe<br>
+                <input type="radio" name="bilíngüe" value="2"/> Bilíngüe<br>
+                <input type="radio" name="trilíngüe" value="3"/> Trilíngüe<br>
+                <input type="radio" name="multilíngüe" value="4"/> Multilíngüe o plurilíngüe<br>
+                <ul><b>Especifique qué idiomas habla:</b></ul>
+                <table>
+                    <tr>
+                        <td>Español <input type="checkbox" name="español"/></td>
+                        <td>Inglés <input type="checkbox" name="inglés"/></td>
+                        <td>Portugués <input type="checkbox" name="portugués"/></td>
+                    </tr>
+                    <tr>
+                        <td>Francés <input type="checkbox" name="francés"/></td>
+                        <td>Japonés <input type="checkbox" name="japonés"/></td>
+                        <td>árabe <input type="checkbox" name="árabe"/></td>
+                    </tr>
+                    <tr>
+                        <td>Chino <input type="checkbox" name="chino"/></td>
+                        <td>Ruso <input type="checkbox" name="ruso"/></td>
+                        <td>Alemán <input type="checkbox" name="alemán"/></td>
+                    </tr>
+                </table>
+                <hr>
+        <h3><b>REFERENCIAS</b></h3>
+        <b><ul>Contacto 1</ul></b>
+        <p>Nombre y apellido: <input type="text" name="nombre" value="Ana Martínez" size="15"/></p>
+        <p>Ocupación: <input type="text" name="ocupación" value="Maestra"/></p>
+        <p>Número de teléfono: <input type="text" name="teléfono" value="+507 0000-0000" size="10"/></p>
+        <b><ul>Contacto 2</ul></b>
+        <p>Nombre y apellido: <input type="text" name="nombre" value="Anel Ortíz" size="15"/></p>
+        <p>Ocupación: <input type="text" name="ocupación" value="Abogado"/></p>
+        <p>Número de teléfono: <input type="text" name="teléfono" value="+507 0000-0000" size="10"/></p>
+        </form>
+        <hr>
+        <p><b>Borrar todos los datos del formulario y volver a empezar:</b></p>
+            <input type="reset" value="borrar todo"/><br>
+        <p><b>Enviar formulario por correo:</b></p>
+            <input type="submit" value="Enviar al correo"/>
+    </body>
+</html>
